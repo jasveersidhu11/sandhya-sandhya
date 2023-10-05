@@ -1,0 +1,65 @@
+/* styles.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+    color: black;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2 {
+    font-family: 'Georgia', serif;
+    color: #333; /* Darken the title color */
+}
+
+header {
+    background-color: #e36f8e;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    background-color: #fff; /* Use a slightly different white */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    text-align: center; /* Center align the lyrics */
+}
+
+/* Use 'Arial' for regular lyrics */
+#lyrics {
+    font-family: 'Arial', sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+    padding: 20px;
+}
+
+/* Use 'Georgia' for emotional parts and make it italic */
+#lyrics .emotional {
+    font-family: 'Georgia', serif;
+    font-style: italic; /* Make it italic */
+    font-weight: bold;
+    color: rgb(57, 99, 99);
+}
+
+/* Make all paragraphs italic */
+p {
+    font-style: italic;
+}
+
+footer {
+    background-color: #e25151;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
